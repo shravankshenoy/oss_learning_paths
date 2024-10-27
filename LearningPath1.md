@@ -13,6 +13,10 @@
 2. Creating virtual environment
 3. poetry
 ### Learning Material
+Text: 
+For Poetry installation follow : https://python-poetry.org/docs/#installing-with-the-official-installer
+Video: 
+For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
 
 ### Exercise
 
