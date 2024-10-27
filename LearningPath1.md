@@ -25,10 +25,27 @@ For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
 
 ## FastAPI 
 ### Concepts
-
+1. Creating a basic app which responds to GET request
+2. Types, type hints and Pydantic models
+3. Response model
+4. Routers
+  
 ### Learning Material
 Text: https://fastapi.tiangolo.com/learn/ (Fast API docs)
+Video:
+Routers - https://www.youtube.com/watch?v=D-3JJLpECGQ
+
 ### Exercise
+
+## Databases and ORM (SQLite and SQLModel)
+### Concepts
+1. Database and CRUD Operations
+2. ORM (including orm vs raw sql)
+3. What is SQLModel
+### Learning Material
+
+### Exercise
+
 
 ## Websockets
 ### Concepts
@@ -37,12 +54,7 @@ Text: https://fastapi.tiangolo.com/learn/ (Fast API docs)
 
 ### Exercise
 
-## SQL Model
-### Concepts
 
-### Learning Material
-
-### Exercise
 
 ## Redis
 ### Concepts
