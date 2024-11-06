@@ -27,8 +27,11 @@ For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
 ### Concepts
 1. Creating a basic app which responds to GET request
 2. Types, type hints and Pydantic models
-3. Response model
-4. Routers
+3. Path and path operations
+4. Response model
+5. Routers (including prefix)
+6. Dependency injection
+7. Lifespan events
   
 ### Learning Material
 Text: https://fastapi.tiangolo.com/learn/ (Fast API docs)
@@ -36,12 +39,27 @@ Video:
 Routers - https://www.youtube.com/watch?v=D-3JJLpECGQ
 
 ### Exercise
+Build a simple FastAPI app which satisfies the following conditions
+1. The base url should return {"Hello":"World"}
+2. When the user visits the route /v1/languages , it should return `{"languages":["en", "hi"]}`. This route should be in a separate file called languages.py and not in the main file i.e. main.py (Hint: Use routers)
+3. The overall folder structure should be as follows
+```
+├── core
+│   ├── __init__.py
+│   ├── api
+|   |   ├── languages.py
+|   |   ├── __init__.py
+├── main.py
+├── venv
+├── pyproject.toml
+└── .gitignore
+```
 
-## Databases and ORM (SQLite and SQLModel)
+## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
 1. Database and CRUD Operations
 2. ORM (including orm vs raw sql)
-3. What is SQLModel
+3. 
 ### Learning Material
 
 ### Exercise
