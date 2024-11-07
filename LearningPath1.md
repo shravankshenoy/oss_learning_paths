@@ -76,15 +76,27 @@ Text
 ##### Level 1
 Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session
 
-## Asynchronous Python
-1. 
+## Asynchronous Python (including Asynchronous SQLAlchemy)
+Note: This is a hard topic, so if you are not able to grasp this fully, just go ahead, and you can come back to it at a later point of time
+### Concepts
+1. Event Loop
+2. Coroutines, Asyncio, Async and Await
+3. Making SQLAlchemy code asynchronous (Refer https://www.youtube.com/watch?v=cH0immwfykI)
+
+### Exercise
+Convert the FastAPI app created in the Databases and ORM section from synchronous to asynchronous. 
 
 ## Websockets
 ### Concepts
 
+
 ### Learning Material
+1. https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
 
 ### Exercise
+#### Level 1
+Complete the activity shown in https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
+#### Level 2
 
 
 
