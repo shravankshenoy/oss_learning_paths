@@ -57,13 +57,27 @@ Build a simple FastAPI app which satisfies the following conditions
 
 ## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
-1. Database and CRUD Operations
-2. ORM (including orm vs raw sql)
-3. 
+1. Database fundamentals - Relational vs NoSQL databases
+2. What is SQLite and Installation (https://www.sqlitetutorial.net/what-is-sqlite/)
+3. Sorting and Filtering data using SQL
+4. CRUD Operations using SQL (including create, insert, update, delete, replace)
+5. ORM (understanding difference b/w orm and raw sql)
+6. SQLAlchemy Engine and Session
+7. Transactions and Operations (including read, write, commit, rollback)
+8. Metadata, Table and Column (including what is metadata, column datatypes like Integer, String)
+9. Working with data using SQLAlchemy ORM (including insert, select, update, delete)
+    
 ### Learning Material
-
+Text
+1. https://www.sqlitetutorial.net/
+2. https://docs.sqlalchemy.org/en/20/tutorial/
+   
 ### Exercise
+##### Level 1
+Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session
 
+## Asynchronous Python
+1. 
 
 ## Websockets
 ### Concepts
