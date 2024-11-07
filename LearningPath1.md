@@ -123,7 +123,7 @@ Build a simple messaging app between multiple clients using FastAPI and websocke
 #### Level 1
 In the terminal/command prompt, create 2 entries with hash datatype. Then retrieve all of them
 #### Level 2
-Create a FastAPI app which gets data from any of the public APIs in the link - https://github.com/public-apis/public-apisand then caches it using redis, so that when the end users call the same url, they get the same data instantaneously
+Create a FastAPI app which gets data from any of the public APIs in the link - https://github.com/public-apis/public-apis and then caches it using redis, so that when the end users call the same url, they get the same data instantaneously
 
 ## LLM and Prompt engineering
 ### Concepts
@@ -143,4 +143,23 @@ COMING SOON
 
 # Capstone Project 
 This capstone project is based on a real world open source project, which you can contribute to once you finish the capstone project
+#### Level 1
+Given the client code, create a FastAPI app with the following
+1. An endpoint /v1/languages which when called return {"languages":["en","hi"]}
+2. A websocket endpoint /v1/ws/transcription which receives text from the client, and extracts the user_id and language from the received text. It returns the following response back to the client via the websocket
+   {
+                   "message_id": str(uuid.uuid4()),
+                   "text": <the first 20 characters of the audio>
+                   "type": <language given by user>
+   }
+
+#### Level 2
+To the app written in Level 1, add the following features
+1. Create a model called Transcription with the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string)
+2. In the /v1/ws/transcription endpoint, add code to store the following set into a Redis database with the key as transcription:{user_id}
+   {
+                    "transcription": <audio file>              
+   }
+3. Create an endpoint /v1/transcription/save, which given a user_id, returns all the transcription data corresponding to that user from the Redis database
+4. In the above endpoint, write code to add the user, along with their language and transcription data as a new row into a SQLite database by using the Transcription model created in step 1
 
