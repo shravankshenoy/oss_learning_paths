@@ -2,7 +2,10 @@
 
 ## Python basics
 ### Concepts
-
+1. Variables
+2. Data Types
+3. Functions
+4. Generators
 ### Learning Material
 
 ### Exercise
@@ -88,31 +91,39 @@ Convert the FastAPI app created in the Databases and ORM section from synchronou
 
 ## Websockets
 ### Concepts
-
+1. Websockets vs HTTP (including lifecycle of websocket, websocket url, pros and cons of web socket)
+2. Building simple websocket client server using Python websockets library
+3. Using websockets in FastAPI (refer https://fastapi.tiangolo.com/advanced/websockets/)
 
 ### Learning Material
 1. https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
+2. https://fastapi.tiangolo.com/advanced/websockets/
 
 ### Exercise
 #### Level 1
 Complete the activity shown in https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
 #### Level 2
-
+Build a simple messaging app between multiple clients using FastAPI and websockets. You can refer to the code in FastAPI docs, but do make sure to add one additional feature of your own
+#### Level 3
 
 
 ## Redis
 ### Concepts
-
+1. Key value store (https://stackoverflow.com/questions/3046001/what-does-document-oriented-vs-key-value-mean-when-talking-about-mongodb-vs-c)
+2. Installing Redis (if Windows, check out https://www.youtube.com/watch?v=DLKzd3bvgt8)
+3. Redis data types (including string, hash, set, list)
+4. Redis string commands (including get, set, mget, keys, exists, persist, expire)
+5. Redis hash commands (including hset, hget, hmget, etc)
+6. Using Redis with FastApi
 ### Learning Material
-
+1. https://redis.io/learn/howtos/quick-start/cheat-sheet
+2. https://www.youtube.com/watch?v=6nY-kci1rlo (Redis with FastAPI in 16mins)
+   
 ### Exercise
-
-## Uvicorn
-### Concepts
-
-### Learning Material
-
-### Exercise
+#### Level 1
+In the terminal/command prompt, create 2 entries with hash datatype. Then retrieve all of them
+#### Level 2
+Create a FastAPI app which gets data from any of the public APIs in the link - https://github.com/public-apis/public-apisand then caches it using redis, so that when the end users call the same url, they get the same data instantaneously
 
 ## LLM and Prompt engineering
 ### Concepts
@@ -123,6 +134,12 @@ Complete the activity shown in https://apmonitor.com/dde/index.php/Main/WebSocke
 Text:
 
 ### Exercise
+
+## Uvicorn
+COMING SOON
+
+## Audio processing and Speech to Text Conversion
+COMING SOON
 
 # Capstone Project 
 This capstone project is based on a real world open source project, which you can contribute to once you finish the capstone project
