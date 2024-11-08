@@ -3,12 +3,15 @@
 ## Python basics
 ### Concepts
 1. Variables
-2. Data Types
-3. Functions
-4. Generators
+2. Data Types (including int, str, list, dictionary, tuple, set)
+3. Control Flow (if-else, for, while)
+4. Functions
+5. Object Oriented Programming basics
+6. Generators
 ### Learning Material
 
 ### Exercise
+
 
 ## Package management
 ### Concepts
@@ -16,12 +19,11 @@
 2. Creating virtual environment
 3. poetry
 ### Learning Material
-Text: 
-For Poetry installation follow : https://python-poetry.org/docs/#installing-with-the-official-installer
-Video: 
-For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
+1. For Poetry installation follow : https://python-poetry.org/docs/#installing-with-the-official-installer
+2. For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
 
 ### Exercise
+Inside a new folder create a virtual environment using virtualenv library. Activate that virtual environment. Then use poetry to install a package
 
 ## Web Concepts: Client, Server and API
 ### Concepts
@@ -144,6 +146,18 @@ Convert the above code into a class called MyGroq. The class should have 2 metho
 1. Constructor method with one instance attribute called client, which is the Groq object
 2. Method called inference, which takes the model_id and prompt as input and returns the response of the LLM API call as the output
 Note: Why did I not name the class Groq, and if I want to do that, what can I do?
+
+## Web Authentication
+1. Authentication vs Authorization
+2. Session vs Token based authentication
+3. JWT (including header, payload, signature)
+4. CORS Middleware
+
+### Learning Material
+1. https://www.youtube.com/watch?v=YpvcqxYiyNE
+
+### Exercise
+COMING SOON
 
 ## Uvicorn
 COMING SOON
