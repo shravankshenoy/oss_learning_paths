@@ -128,12 +128,22 @@ Create a FastAPI app which gets data from any of the public APIs in the link - h
 ## LLM and Prompt engineering
 ### Concepts
 1. LLM basics
-2. Calling LLM apis like OpenAI and Bhashini
-3. Zero shot, Few shot prompting
+2. Calling LLM apis like OpenAI(paid) and Groq(free)
+3. Types of messages (system, user, assistant)
+4. Types of models
+5. Zero shot, Few shot prompting
 ### Learning Material
-Text:
+1. https://platform.openai.com/docs/guides/text-generation
+2. https://console.groq.com/docs/quickstart
 
 ### Exercise
+#### Level 1
+Write a simple code which calls LLama-3-8b-8192 model with a user message (any message of your choice) using the Groq API. The Groq API key must be stored in a separate .env file and loaded using the dotenv library
+#### Level 2
+Convert the above code into a class called MyGroq. The class should have 2 methods
+1. Constructor method with one instance attribute called client, which is the Groq object
+2. Method called inference, which takes the model_id and prompt as input and returns the response of the LLM API call as the output
+Note: Why did I not name the class Groq, and if I want to do that, what can I do?
 
 ## Uvicorn
 COMING SOON
