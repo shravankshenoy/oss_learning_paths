@@ -40,22 +40,31 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 4. Functions
 5. Object Oriented Programming basics
 6. Generators
+
 ### Learning Material
-
+1. https://github.com/Asabeneh/30-Days-Of-Python
+   
 ### Exercise
-
+Solve exercises from learning material 1 until you feel confident with your Python skills
 
 ## Package management
 ### Concepts
 1. pip
 2. Creating virtual environment
 3. poetry
+   
 ### Learning Material
 1. For Poetry installation follow : https://python-poetry.org/docs/#installing-with-the-official-installer
 2. For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
+3. https://github.com/Asabeneh/30-Days-Of-Python/blob/master/23_Day_Virtual_environment/23_virtual_environment.md
+4. https://python-poetry.org/docs/basic-usage/
 
 ### Exercise
-Inside a new folder create a virtual environment using virtualenv library. Activate that virtual environment. Then use poetry to install a package
+Create a new project folder called virtual-environment-demo using poetry new. Inside the folder create a virtual environment using virtualenv library. Activate that virtual environment. Then use poetry to install the FastAPI package. Use the appropriate poetry command, list all installed packages within the virtual environment
+<br>
+**Submission Guidelines** : Submission should be a Github link having the following
+1. A text file listing all the commands used to solve the exercise
+2. A screenshot of the terminal which lists all the installed packages
 
 ## Web Concepts: Client, Server and API
 ### Concepts
@@ -71,9 +80,8 @@ Inside a new folder create a virtual environment using virtualenv library. Activ
 7. Lifespan events
   
 ### Learning Material
-Text: https://fastapi.tiangolo.com/learn/ (Fast API docs)
-Video:
-Routers - https://www.youtube.com/watch?v=D-3JJLpECGQ
+1. https://fastapi.tiangolo.com/learn/ (Fast API docs) 
+2. https://www.youtube.com/watch?v=D-3JJLpECGQ (for routers)
 
 ### Exercise
 Build a simple FastAPI app which satisfies the following conditions
@@ -91,6 +99,9 @@ Build a simple FastAPI app which satisfies the following conditions
 ├── pyproject.toml
 └── .gitignore
 ```
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+2. Screenshot of response in the Swagger UI 
 
 ## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
