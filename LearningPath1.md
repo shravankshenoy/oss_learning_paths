@@ -10,7 +10,7 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 ## What is special about this roadmap?
 * **This is NOT a generic roadmap**. This roadmap is exclusively based on one open source project, which is used by thousands of people, and only covers topics and subtopics relevant to that project. Completing this roadmap will enable you to reach a skill level where you can easily contribute to that project(and as a side effect other projects which use similar technologies)
 * No spoonfeeding - while you will be given topics and exercises, there will be no tutorials. You will have to use the learning resources shared, or any other resource of your choice and solve the exercises.
-* Cash prizes - First person to complete all exercises + capstone project + hidden task will win Rs 400, second person Rs 300 and third person Rs 200 (code sharing strictly not tolerated and will lead to immediate disqualification)
+* Cash prizes - First person to complete all exercises + capstone project + hidden task will win Rs 400, second person Rs 300 and third person Rs 200 (code sharing strictly not tolerated and will lead to immediate disqualification). People who complete after that will still get non monetary benefits like guidance to contribute to open source repositories
   
 ## Points to Note (Do not skip this)
 1. Do not get stuck in tutorial hell Just learn what you need on the go. My prefered approach is
@@ -24,8 +24,6 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 3. Make notes as you learn
    
   
-
-
 
 <Add submit your exercise button>
 <Github discussions>
@@ -54,20 +52,30 @@ Solve exercises from learning material 1 until you feel confident with your Pyth
 3. poetry
    
 ### Learning Material
-1. For Poetry installation follow : https://python-poetry.org/docs/#installing-with-the-official-installer
-2. For Poetry windows installation - https://www.youtube.com/watch?v=5lioBm8f324
+1. https://python-poetry.org/docs/#installing-with-the-official-installer (for Poetry installation)
+2. https://www.youtube.com/watch?v=5lioBm8f324 (for Poetry Windows installation)
 3. https://github.com/Asabeneh/30-Days-Of-Python/blob/master/23_Day_Virtual_environment/23_virtual_environment.md
 4. https://python-poetry.org/docs/basic-usage/
 
 ### Exercise
 Create a new project folder called virtual-environment-demo using poetry new. Inside the folder create a virtual environment using virtualenv library. Activate that virtual environment. Then use poetry to install the FastAPI package. Use the appropriate poetry command, list all installed packages within the virtual environment
-<br>
+<br><br>
 **Submission Guidelines** : Submission should be a Github link having the following
 1. A text file listing all the commands used to solve the exercise
 2. A screenshot of the terminal which lists all the installed packages
 
 ## Web Concepts: Client, Server and API
+This section is only to understand the thoery. Seeing learning material 1 should be sufficient for this section
 ### Concepts
+1. What is a client
+2. What is a server
+3. Client server model vs peer to peer model
+
+### Learning Material
+1. https://www.youtube.com/watch?v=L5BlpPU_muY
+
+### Exercise
+None for this section
 
 ## FastAPI 
 ### Concepts
@@ -80,8 +88,9 @@ Create a new project folder called virtual-environment-demo using poetry new. In
 7. Lifespan events
   
 ### Learning Material
-1. https://fastapi.tiangolo.com/learn/ (Fast API docs) 
-2. https://www.youtube.com/watch?v=D-3JJLpECGQ (for routers)
+1. https://fastapi.tiangolo.com/#create-it (start with this)
+2. https://fastapi.tiangolo.com/learn/ (Fast API docs) 
+3. https://www.youtube.com/watch?v=D-3JJLpECGQ (for routers)
 
 ### Exercise
 Build a simple FastAPI app which satisfies the following conditions
