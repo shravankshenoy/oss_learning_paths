@@ -29,7 +29,7 @@ If you are looking for internships/jobs, these are roles you can apply to if you
   
 
 <p align="center">
-  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" height="50" /></a>
+  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 </p>
 
 # Topics
