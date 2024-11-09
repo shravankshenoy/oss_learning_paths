@@ -66,13 +66,14 @@ Create a new project folder called virtual-environment-demo using poetry new. In
 Deactivate and delete the virtual environment. Create a new virtual environment and activate it. Install packages using the pyproject.toml file. Using poetry, list all installed packages within the virtual environment
 
 <br/>
-**Submission Guidelines** : Submission should be a Github link having the following
+
+**Submission Guidelines**: Submission should be a Github link having the following
 1. A text file listing all the commands used to solve the exercise
 2. A screenshot of the terminal which lists all the installed packages
+<br/>
 
-<p align="center">
-  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
-</p>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 
 ## Web Concepts: Client, Server and API
 This section is only to understand the thoery. Seeing learning material 1 should be sufficient for this section
@@ -123,10 +124,9 @@ Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
+<br/>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
-<p align="center">
-  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
-</p>
 
 ## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
