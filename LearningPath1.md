@@ -239,7 +239,7 @@ COMING SOON
 # Capstone Project 
 This capstone project is based on a real world open source project, which you can contribute to once you finish the capstone project
 #### Level 1
-Given the client code, create a FastAPI app with the following
+Given the client code [index.html](https://pages.github.com/), create a FastAPI app with the following
 1. An endpoint /v1/languages which when called return {"languages":["en","hi"]}
 2. A websocket endpoint /v1/ws/transcription which receives text from the client, and extracts the user_id and language from the received text. It returns the following response back to the client via the websocket
    {
