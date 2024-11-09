@@ -8,7 +8,7 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 * Gen AI developer
 
 ## What is special about this roadmap?
-* This is NOT a generic roadmap. This roadmap is exclusively based on one open source project, which is used by thousands of people. Completing this roadmap will enable you to reach a skill level where you can easily contribute to that project as well as several other projects which use similar technologies
+* **This is NOT a generic roadmap**. This roadmap is exclusively based on one open source project, which is used by thousands of people, and only covers topics and subtopics relevant to that project. Completing this roadmap will enable you to reach a skill level where you can easily contribute to that project(and as a side effect other projects which use similar technologies)
 * No spoonfeeding - while you will be given topics and exercises, there will be no tutorials. You will have to use the learning resources shared, or any other resource of your choice and solve the exercises.
 * Cash prizes - First person to complete all exercises + capstone project + hidden task will win Rs 400, second person Rs 300 and third person Rs 200 (code sharing strictly not tolerated and will lead to immediate disqualification)
   
