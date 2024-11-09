@@ -108,7 +108,7 @@ Build a simple FastAPI app which satisfies the following conditions
 ├── pyproject.toml
 └── .gitignore
 ```
-Make sure to use a virtual environment and Poetry to install packages
+Make sure to use a virtual environment and Poetry to install packages <br/>
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
 2. Screenshot of response in the Swagger UI 
@@ -126,13 +126,12 @@ Make sure to use a virtual environment and Poetry to install packages
 9. Working with data using SQLAlchemy ORM (including insert, select, update, delete)
     
 ### Learning Material
-Text
 1. https://www.sqlitetutorial.net/
 2. https://www.sqlitetutorial.net/what-is-sqlite/
 3. https://docs.sqlalchemy.org/en/20/tutorial/
    
 ### Exercise
-**Level 1**
+**Level 1** <br/>
 Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session
 
 ## Asynchronous Python (including Asynchronous SQLAlchemy)
