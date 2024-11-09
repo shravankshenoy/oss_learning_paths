@@ -1,5 +1,20 @@
-# Topics
+# Open Source Simplified - Roadmap 1 
 
+This roadmap is based on an open source project which is used by thousands of people. The open source project name will be revealed only to those who complete all the exercises and the capstone project
+
+## Roles/Skillsets
+If you are looking for internships/jobs, these are roles you can apply to if you complete this roadmap
+* Python backend developer (FastAPI)
+* Gen AI developer
+
+## What is special about this roadmap?
+* This is NOT a generic roadmap. This roadmap is exclusively based on one open source project, which is used by thousands of people. Completing this roadmap will enable you to reach a skill level where you can easily contribute to that project as well as several other projects which use similar technologies
+
+## Points to Note (Do not skip this)
+
+
+
+# Topics
 ## Python basics
 ### Concepts
 1. Variables
@@ -187,3 +202,5 @@ To the app written in Level 1, add the following features
 3. Create an endpoint /v1/transcription/save, which given a user_id, returns all the transcription data corresponding to that user from the Redis database
 4. In the above endpoint, write code to add the user, along with their language and transcription data as a new row into a SQLite database by using the Transcription model created in step 1
 
+# Final Task [Locked]
+This task will be visible only to those who complete all the exercises and the Capstone project successfully. Completion of this task will result in winning prize money and other benefits (such as being a contributor in large open source projects)
