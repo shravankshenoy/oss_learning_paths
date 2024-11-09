@@ -28,9 +28,7 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 5. If you have a doubt, google it. That should solve it 99% of the times. If that still does not help, ask your doubt in the discussions section, and someone might answer it   
   
 
-<p align="center">
-  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
-</p>
+
 
 # Topics
 ## Python Fundamentals
@@ -71,6 +69,10 @@ Deactivate and delete the virtual environment. Create a new virtual environment 
 **Submission Guidelines** : Submission should be a Github link having the following
 1. A text file listing all the commands used to solve the exercise
 2. A screenshot of the terminal which lists all the installed packages
+
+<p align="center">
+  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+</p>
 
 ## Web Concepts: Client, Server and API
 This section is only to understand the thoery. Seeing learning material 1 should be sufficient for this section
@@ -121,6 +123,10 @@ Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
+
+<p align="center">
+  <a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+</p>
 
 ## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
