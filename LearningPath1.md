@@ -58,8 +58,13 @@ Solve exercises from learning material 1 until you feel confident with your Pyth
 4. https://python-poetry.org/docs/basic-usage/
 
 ### Exercise
+**Level 1** <br/>
 Create a new project folder called virtual-environment-demo using poetry new. Inside the folder create a virtual environment using virtualenv library. Activate that virtual environment. Then use poetry to install the FastAPI package. Use the appropriate poetry command, list all installed packages within the virtual environment
-<br><br>
+<br/>
+**Level 2**<br/>
+Deactivate and delete the virtual environment. Create a new virtual environment and activate it. Install packages using the pyproject.toml file. Using poetry, list all installed packages within the virtual environment
+
+<br/>
 **Submission Guidelines** : Submission should be a Github link having the following
 1. A text file listing all the commands used to solve the exercise
 2. A screenshot of the terminal which lists all the installed packages
@@ -109,9 +114,10 @@ Build a simple FastAPI app which satisfies the following conditions
 └── .gitignore
 ```
 Make sure to use a virtual environment and Poetry to install packages <br/>
+Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2-adf3e505fdca <br/>
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
-2. Screenshot of response in the Swagger UI 
+2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 
 ## Databases and ORM (SQLite and SQLAlchemy)
 ### Concepts
@@ -132,7 +138,12 @@ Make sure to use a virtual environment and Poetry to install packages <br/>
    
 ### Exercise
 **Level 1** <br/>
-Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session
+Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session <br/>
+Reference code : Code in the first 3 minutes of https://www.youtube.com/watch?v=cH0immwfykI <br/>
+
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 
 ## Asynchronous Python (including Asynchronous SQLAlchemy)
 Note: This is a hard topic, so if you are not able to grasp this fully, just go ahead, and you can come back to it at a later point of time
@@ -142,7 +153,12 @@ Note: This is a hard topic, so if you are not able to grasp this fully, just go 
 3. Making SQLAlchemy code asynchronous (Refer https://www.youtube.com/watch?v=cH0immwfykI)
 
 ### Exercise
-Convert the FastAPI app created in the Databases and ORM section from synchronous to asynchronous. 
+Convert the FastAPI app created in the Databases and ORM section from synchronous to asynchronous <br/>
+Reference code: https://github.com/PrettyPrinted/youtube_video_code/blob/master/2023/05/27/How%20to%20Use%20Async%20SQLAlchemy%20in%20FastAPI/fastapi_async_sqlalchemy/app.py <br/>
+
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 
 ## Websockets
 ### Concepts
@@ -159,20 +175,21 @@ Convert the FastAPI app created in the Databases and ORM section from synchronou
 Complete the activity shown in https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
 #### Level 2
 Build a simple messaging app between multiple clients using FastAPI and websockets. You can refer to the code in FastAPI docs, but do make sure to add one additional feature of your own
-#### Level 3
 
 
 ## Redis
 ### Concepts
-1. Key value store (https://stackoverflow.com/questions/3046001/what-does-document-oriented-vs-key-value-mean-when-talking-about-mongodb-vs-c)
+1. Key value store 
 2. Installing Redis (if Windows, check out https://www.youtube.com/watch?v=DLKzd3bvgt8)
 3. Redis data types (including string, hash, set, list)
 4. Redis string commands (including get, set, mget, keys, exists, persist, expire)
 5. Redis hash commands (including hset, hget, hmget, etc)
 6. Using Redis with FastApi
+   
 ### Learning Material
 1. https://redis.io/learn/howtos/quick-start/cheat-sheet
 2. https://www.youtube.com/watch?v=6nY-kci1rlo (Redis with FastAPI in 16mins)
+3. https://stackoverflow.com/questions/3046001/what-does-document-oriented-vs-key-value-mean-when-talking-about-mongodb-vs-c
    
 ### Exercise
 #### Level 1
@@ -187,6 +204,7 @@ Create a FastAPI app which gets data from any of the public APIs in the link - h
 3. Types of messages (system, user, assistant)
 4. Types of models
 5. Zero shot, Few shot prompting
+   
 ### Learning Material
 1. https://platform.openai.com/docs/guides/text-generation
 2. https://console.groq.com/docs/quickstart
