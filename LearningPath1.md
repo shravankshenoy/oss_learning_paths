@@ -9,9 +9,26 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 
 ## What is special about this roadmap?
 * This is NOT a generic roadmap. This roadmap is exclusively based on one open source project, which is used by thousands of people. Completing this roadmap will enable you to reach a skill level where you can easily contribute to that project as well as several other projects which use similar technologies
-
+* No spoonfeeding - while you will be given topics and exercises, there will be no tutorials. You will have to use the learning resources shared, or any other resource of your choice and solve the exercises.
+* Cash prizes - First person to complete all exercises + capstone project + hidden task will win Rs 400, second person Rs 300 and third person Rs 200 (code sharing strictly not tolerated and will lead to immediate disqualification)
+  
 ## Points to Note (Do not skip this)
+1. Do not get stuck in tutorial hell Just learn what you need on the go. My prefered approach is
+   * Step 1 : Start any topic with a quickstart docs (prefered) or a short quickstart video (less than 25 mins)
+   * Step 2 : Directly jump into the exercise. Look at the reference code and if there is any line in the reference code you do not understand then just read the docs for that concept. Make notes as you learn
+   * Step 3 : Use your learnings to solve the exercise
+   * Step 4 : Submit your exercise and move to the next topic
 
+2. Always read the official docs first. Go for video tutorial only if you do not understand docs. Many libraries have really good official docs. For example, FastAPI docs are really good. This is important because in the real world, you will have to use niche tools and libraries which will not have any video tutorials and will only have docs
+
+3. Make notes as you learn
+   
+  
+
+
+
+<Add submit your exercise button>
+<Github discussions>
 
 
 # Topics
