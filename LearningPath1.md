@@ -152,11 +152,13 @@ Build a FastAPI app which connects to a SQLite database named db, with the follo
 2. Create an endpoint `/v1/transcriptions`, which returns all the transcriptions.
 3. Create another endpoint `/v1/transcriptions/save`, where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session <br/>
 
-Reference code : Code in the first 3 minutes of https://www.youtube.com/watch?v=cH0immwfykI <br/>
+**Reference code** : Code in the first 3 minutes of https://www.youtube.com/watch?v=cH0immwfykI <br/>
 
 **Submission Guidelines** : Submission should be a Github link having the following
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
+<br/>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
 ## Asynchronous Python (including Asynchronous SQLAlchemy)
 Note: This is a hard topic, so if you are not able to grasp this fully, just go ahead, and you can come back to it at a later point of time
@@ -173,6 +175,9 @@ Reference code: https://github.com/PrettyPrinted/youtube_video_code/blob/master/
 1. Entire code
 2. Screenshot of response in the Swagger UI (localhost:8000/docs)
 
+<br/>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 ## Websockets
 ### Concepts
 1. Websockets vs HTTP (including lifecycle of websocket, websocket url, pros and cons of web socket)
@@ -184,11 +189,16 @@ Reference code: https://github.com/PrettyPrinted/youtube_video_code/blob/master/
 2. https://fastapi.tiangolo.com/advanced/websockets/
 
 ### Exercise
-#### Level 1
+**Level 1** </br>
 Complete the activity shown in https://apmonitor.com/dde/index.php/Main/WebSocketTransfer
-#### Level 2
+**Level 2** </br>
 Build a simple messaging app between multiple clients using FastAPI and websockets. You can refer to the code in FastAPI docs, but do make sure to add one additional feature of your own
 
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+
+<br/>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
 ## Redis
 ### Concepts
@@ -210,6 +220,12 @@ In the terminal/command prompt, create 2 entries with hash datatype. Then retrie
 #### Level 2
 Create a FastAPI app which gets data from any of the public APIs in the link - https://github.com/public-apis/public-apis and then caches it using redis, so that when the end users call the same url, they get the same data instantaneously
 
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+
+<br/>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
+
 ## LLM and Prompt engineering
 ### Concepts
 1. LLM basics
@@ -230,6 +246,12 @@ Convert the above code into a class called MyGroq. The class should have 2 metho
 1. Constructor method with one instance attribute called client, which is the Groq object
 2. Method called inference, which takes the model_id and prompt as input and returns the response of the LLM API call as the output
 Note: Why did I not name the class Groq, and if I want to do that, what can I do?
+
+**Submission Guidelines** : Submission should be a Github link having the following
+1. Entire code
+
+<br/>
+<a href=""><img src="https://github.com/shravankshenoy/oss_learning_paths/blob/main/submit_button.png" width="120" /></a>
 
 ## Web Authentication
 1. Authentication vs Authorization
