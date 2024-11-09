@@ -21,16 +21,17 @@ If you are looking for internships/jobs, these are roles you can apply to if you
 
 2. Always read the official docs first. Go for video tutorial only if you do not understand docs. Many libraries have really good official docs. For example, FastAPI docs are really good. This is important because in the real world, you will have to use niche tools and libraries which will not have any video tutorials and will only have docs
 
-3. Make notes as you learn
+3. Make notes as you learn. These will come in very handy afterwards
    
+4. Have a goal - something which will push you when the going is not smooth. It could be getting an internship/job, being an open source contributor, just wanting to master something new etc. One major perk of completing this roadmap is you get to be part of an awesome AI community that is building cutting edge solutions for various India specific problems. So you can make a huge impact on the society as well, if you complete this, apart from all the other benefits.
+
+5. If you have a doubt, google it. That should solve it 99% of the times. If that still does not help, ask your doubt in the discussions section, and someone might answer it   
   
 
-<Add submit your exercise button>
-<Github discussions>
 
 
 # Topics
-## Python basics
+## Python Fundamentals
 ### Concepts
 1. Variables
 2. Data Types (including int, str, list, dictionary, tuple, set)
@@ -138,7 +139,11 @@ Reference code : https://medium.com/@mlopsengineer/routers-in-fastapi-tutorial-2
    
 ### Exercise
 **Level 1** <br/>
-Build a FastAPI app which connects to a SQLite database named db. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value. Create an endpoint /v1/transcriptions, which returns all the transcriptions. Create another endpoint /v1/transcriptions/save , where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session <br/>
+Build a FastAPI app which connects to a SQLite database named db, with the following requirement 
+1. Create a model called Transcription, which has the following fields : id (integer), user_id(integer), transcription(string), processed_text(string), word_count(integer), language(string). The word_count field must have a default value of zero, and the language column must have a value.
+2. Create an endpoint `/v1/transcriptions`, which returns all the transcriptions.
+3. Create another endpoint `/v1/transcriptions/save`, where user can pass user_id and language, and that entry gets added to the SQLite database. Try to use dependency injection to start the SQLalchemy session <br/>
+
 Reference code : Code in the first 3 minutes of https://www.youtube.com/watch?v=cH0immwfykI <br/>
 
 **Submission Guidelines** : Submission should be a Github link having the following
